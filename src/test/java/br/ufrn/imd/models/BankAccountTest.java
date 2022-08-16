@@ -38,5 +38,21 @@ public class BankAccountTest {
     public void testDepositShouldNotBeZeroOrNegativeValue(double value){
         assertThrows(IllegalArgumentException.class, () -> bankAccount.deposit(value));
     }
+
+    @Test
+    public void testWithdrowShouldChangeTheBalance() {
+        bankAccount.deposit(100);
+        bankAccount.withdraw(10);
+        assertEquals(90, bankAccount.getBalance());
+    }
+
+    @Test
+    public void testTransfer() {
+        BankAccount bankAccount2 = new BankAccount();
+        bankAccount.deposit(100);
+        bankAccount.transfer(bankAccount2, 50);
+        assertEquals(50, bankAccount.getBalance());
+        assertEquals(50, bankAccount2.getBalance());
+    }
 }
 
