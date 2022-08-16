@@ -84,4 +84,3 @@ que deva ser aplicada para soluções reais.
 - [CIO MAgazine - 15 Nov 2007 - Vol. 21, No. 4  (Revista)](https://books.google.com.br/books?id=YgoAAAAAMBAJ&lpg=PP1&pg=PP1#v=onepage&q&f=false)
 - [Computerworld - 25 Jul 2005 - Vol. 39, No. 30  (Livro)](https://books.google.com.br/books?id=cPtooiQepS0C&printsec=frontcover#v=onepage&q&f=false)
 - [CISQ SUPPLEMENTS ISO/IEC 25000 SERIES WITH AUTOMATED QUALITY CHARACTERISTIC MEASURES (Site)](https://www.it-cisq.org/cisq-supplements-isoiec-25000-series-with-automated-quality-characteristic-measures/)
-
